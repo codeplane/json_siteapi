@@ -18,8 +18,7 @@ This module is dependant on the <code>Drupal Core: Serialization</code> module t
 2. Provide the API key to the <code>Site API Key</code> field under the site
   details section, to set up a site-wide API key.
   
-3. Access the below endpoint to get the JSON response.
- <code> http(s)://&lt;site_name&gt;/page_json/&lt;api_key&gt;/&lt;node_id&gt; </code>
+3. Access the below endpoint to get the JSON response.</br><code> http(s)://&lt;site_name&gt;/page_json/&lt;api_key&gt;/&lt;node_id&gt; </code>
  
  <h2>References</h2>
  
@@ -39,7 +38,7 @@ Research : 3 hrs
 
 Implementation : 2 hrs
 
-Total Effort : 5hrs
+Total Effort : 5 hrs
 
 
 

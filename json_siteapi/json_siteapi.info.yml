@@ -1,0 +1,7 @@
+name: 'JSON SiteAPI'
+type: module
+description: 'Access custom REST endpoint showing JSON response of page type nodes with a Site API key authentication.'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - drupal:serialization

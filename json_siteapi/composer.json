@@ -1,0 +1,14 @@
+{
+  "name": "drupal/json_siteapi",
+  "type": "drupal-module",
+  "description": "Access custom REST endpoint showing JSON response of page type nodes with a Site API key authentication.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/json_siteapi",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/json_siteapi",
+    "source": "http://cgit.drupalcode.org/json_siteapi"
+  },
+  "require": { }
+}

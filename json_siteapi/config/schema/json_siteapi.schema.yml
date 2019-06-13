@@ -1,0 +1,7 @@
+# Extending the default sytem.site configuration to add an additional field.
+system.site:
+  mapping:
+    # adding the name of the field : siteapikey
+    siteapikey:
+      type: string
+      label: 'Site API Key'

@@ -1,0 +1,10 @@
+json_siteapi_endpoint:
+  # route to custom endpoint.
+  path: 'page_json/{apikey}/{nid}'
+  defaults:
+    _title: 'Endpoint for JSON response'
+    # Controller having the function to generate the json response.
+    _controller: '\Drupal\json_siteapi\Controller\CustomRestController::getPageNodes'
+    methods: [GET]
+  requirements:
+    _permission: 'access content'

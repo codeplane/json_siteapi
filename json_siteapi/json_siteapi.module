@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains json_siteapi.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function json_siteapi_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the json_siteapi module.
+    case 'help.page.json_siteapi':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Access custom REST endpoint showing JSON response of page type nodes with a Site API key authentication.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
